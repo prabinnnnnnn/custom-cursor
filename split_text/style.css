@@ -1,0 +1,21 @@
+.main{
+    height: 90vh;
+    display: grid;
+    place-content: center;
+    overflow: hidden;
+
+}
+
+h1{
+    
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-family: "kajiro";
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    line-height: 5rem;
+}
+
+.char{
+    transform: translateY(115px);
+    transition: transform .6s;
+}
